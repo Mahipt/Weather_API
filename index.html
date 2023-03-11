@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head lang="eng" dir="ltr">
+        <meta charset="utf-8">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <h1>Welcom to Weather App</h1>
+        <!--Create a post form for the action-->
+        <form action="/" method="post">
+            <table>
+                <tr>
+                    <!--City Name-->
+                    <td><label>Longtitude:</label></td>
+                    <td><input type="text" name="Longtitude" class="Longtitude"></td>
+                    <td><label>Latitude:</label></td>
+                    <td><input type="text" name="Latitude" class="Latitude"></td>
+                </tr>
+                <tr>
+                    <!--Units option-->
+                    <td><label>Units:</label></td>
+                    <td>
+                        <select name="units" class="units">
+                            <option value="Fahrenheit">&#176 F</option>
+                            <option value="Celsius">&#176 C</option>
+                            <option value="Default">&#176 K</option>
+                        </select>
+                        <button type="submit">Check weather</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
